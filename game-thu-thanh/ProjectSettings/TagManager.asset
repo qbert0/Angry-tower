@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ground
+  - player
+  - enemy
+  - tower
+  - road
+  - test
+  - 
+  - 
+  - 
+  - hover
+  - 
+  - 
+  - 
+  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 2425651459
+    locked: 0
+  - name: hightLight
+    uniqueID: 2561514637
+    locked: 0
+  - name: enemy
+    uniqueID: 4250941897
+    locked: 0
+  - name: tower
+    uniqueID: 4189426099
+    locked: 0
+  - name: gun
+    uniqueID: 4078191723
+    locked: 0
+  - name: bullet
+    uniqueID: 2501932189
+    locked: 0
+  - name: health
+    uniqueID: 3403314583
+    locked: 0
+  - name: hover
+    uniqueID: 535776819
+    locked: 0
+  - name: ui
+    uniqueID: 1403387021
+    locked: 0

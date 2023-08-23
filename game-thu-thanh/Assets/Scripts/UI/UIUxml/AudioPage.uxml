@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/PopupWindowStyle.uss?fileID=7433441132597879392&amp;guid=a6f64b2919b8d194397deb13f6c82117&amp;type=3#PopupWindowStyle" />
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/Box.uss?fileID=7433441132597879392&amp;guid=8cdd1c9a405c37a48bc569f8a321a025&amp;type=3#Box" />
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/SliderIntElement.uss?fileID=7433441132597879392&amp;guid=eaaeb3b13256d024cb7d1b93931d1bf2&amp;type=3#SliderIntElement" />
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/Button.uss?fileID=7433441132597879392&amp;guid=6cc600a7434ad3741a530580904c9fac&amp;type=3#Button" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement style="width: 50%; height: 48%; background-color: rgba(219, 193, 193, 0.63);">
+            <ui:VisualElement style="width: 100%; height: 20%; background-color: rgba(115, 62, 48, 0.74); font-size: 70%; justify-content: center; align-items: center; -unity-text-align: middle-left;">
+                <ui:Label text="AUDIO" display-tooltip-when-elided="true" style="flex-grow: 0; flex-shrink: 0; width: 100%; height: 100%; justify-content: center; font-size: 37px; text-shadow: 0 0 0 rgb(217, 209, 209); color: rgb(188, 187, 187); -unity-font-style: bold; letter-spacing: 7px; word-spacing: 9px; -unity-paragraph-spacing: 20px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="height: 100%; width: 100%; -unity-text-align: upper-center; justify-content: flex-start; align-items: flex-start; white-space: nowrap; flex-wrap: nowrap; flex-direction: row; background-color: rgba(214, 177, 177, 0.19);">
+                <ui:VisualElement style="width: 100%; height: 29%;">
+                    <SliderIntElement style="flex-direction: row; height: 100%; width: 100%;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="position: absolute; top: initial; bottom: 5px; left: 35%; width: 30%; height: 17%; align-items: center; justify-content: center;">
+                    <ui:Button text="BACK" display-tooltip-when-elided="true" name="back_to_option_button" enable-rich-text="false" class="button" style="height: 34px; width: 190px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

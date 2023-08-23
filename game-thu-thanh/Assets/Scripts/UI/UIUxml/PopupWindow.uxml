@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/PopupWindowStyle.uss?fileID=7433441132597879392&amp;guid=a6f64b2919b8d194397deb13f6c82117&amp;type=3#PopupWindowStyle" />
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/Box.uss?fileID=7433441132597879392&amp;guid=8cdd1c9a405c37a48bc569f8a321a025&amp;type=3#Box" />
+    <PopupWindow style="align-items: center; justify-content: flex-start;" />
+</ui:UXML>

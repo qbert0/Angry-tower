@@ -1,0 +1,94 @@
+.button:hover {
+    height: 20%;
+    width: 70%;
+    -unity-text-align: middle-center;
+    display: flex;
+    visibility: visible;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(46, 92, 142);
+    color: rgb(255, 249, 249);
+    font-size: 100%;
+    white-space: nowrap;
+    margin-left: 3px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    scale: 1.05 1;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left-color: rgb(238, 226, 226);
+    border-right-color: rgb(238, 226, 226);
+    border-top-color: rgb(238, 226, 226);
+    border-bottom-color: rgb(238, 226, 226);
+    rotate: 0;
+    transform-origin: center;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+}
+
+.button:active {
+    height: 20%;
+    width: 70%;
+    -unity-text-align: middle-center;
+    display: flex;
+    visibility: visible;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(127, 155, 185);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    white-space: nowrap;
+    margin-left: 3px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    scale: 1 1;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left-color: rgb(111, 106, 106);
+    border-right-color: rgb(111, 106, 106);
+    border-top-color: rgb(111, 106, 106);
+    border-bottom-color: rgb(111, 106, 106);
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+}
+
+.button {
+    height: 20%;
+    width: 70%;
+    -unity-text-align: middle-center;
+    display: flex;
+    visibility: visible;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(114, 182, 255);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    white-space: nowrap;
+    margin-left: 3px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    scale: 1 1;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left-color: rgb(111, 106, 106);
+    border-right-color: rgb(111, 106, 106);
+    border-top-color: rgb(111, 106, 106);
+    border-bottom-color: rgb(111, 106, 106);
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+}

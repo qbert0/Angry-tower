@@ -1,0 +1,20 @@
+.box {
+    width: 80px;
+    height: 120px;
+    backGround-color: rgb(86, 86, 86);
+    background-color: rgba(103, 35, 35, 0.78);
+    border-left-color: rgba(202, 142, 142, 255);
+    border-right-color: rgba(202, 142, 142, 255);
+    border-top-color: rgba(202, 142, 142, 255);
+    border-bottom-color: rgba(202, 142, 142, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+

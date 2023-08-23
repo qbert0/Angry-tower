@@ -1,0 +1,157 @@
+.slider-int-element-contain {
+    width: 100%;
+    height: 100%;
+    backGround-color: rgb(100, 100, 200);
+    background-color: rgb(190, 182, 182);
+}
+
+.slider-int-element-leftbar {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(180, 134, 134, 0);
+    justify-content: center;
+}
+
+.slider-int-element-rightbar {
+    width: 83%;
+    height: 99%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.slider-int-element-slider {
+    width: 70%;
+    height: 32px;
+    background-color: rgba(204, 169, 169, 0);
+}
+
+.border-drag {
+    width: 92%;
+    height: 10px;
+    background-color: rgba(197, 105, 105, 0.82);
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgba(88, 99, 140, 0);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    height: 50%;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgba(178, 125, 125, 0);
+    border-right-color: rgba(178, 125, 125, 0);
+    border-top-color: rgba(178, 125, 125, 0);
+    border-bottom-color: rgba(178, 125, 125, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -6px;
+    margin-bottom: 0;
+}
+
+.unity-base-slider__dragger {
+    width: 24px;
+    height: 24px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-left-color: rgb(130, 141, 173);
+    border-right-color: rgb(130, 141, 173);
+    border-top-color: rgb(130, 141, 173);
+    border-bottom-color: rgb(130, 141, 173);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    background-color: rgb(212, 115, 191);
+}
+
+.unity-base-slider__drag-container {
+    background-color: rgba(209, 72, 72, 0);
+}
+
+.unity-base-slider__input {
+    width: auto;
+    height: auto;
+    background-color: rgba(17, 14, 14, 0);
+}
+
+.unity-base-slider__dragger-border {
+    background-color: rgb(243, 242, 242);
+    width: 128px;
+    height: 125px;
+}
+
+.unity-base-slider--horizontal {
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 96%;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.unity-progress-bar__progress {
+    width: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(88, 104, 128, 0.98);
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-top: 5px;
+}
+
+.unity-progress-bar__container {
+    width: auto;
+    height: auto;
+    background-color: rgba(168, 95, 95, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-progress-bar__background {
+    width: auto;
+    height: auto;
+    background-color: rgba(190, 116, 116, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-progress-bar {
+    width: 93%;
+    position: absolute;
+    left: 9px;
+    height: 50%;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    top: -1px;
+}
