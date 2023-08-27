@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1206323859700250552}
   - component: {fileID: 1206323859700250553}
-  - component: {fileID: 1206323859700250534}
   - component: {fileID: 1206323859700250533}
+  - component: {fileID: 1206323859700250534}
   - component: {fileID: 1206323859700250532}
   - component: {fileID: 1206323859700250530}
   - component: {fileID: 6848023347808284773}
@@ -90,20 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1206323859700250534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206323859700250555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7835c2f617ca34145aec67b9624bfa69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gunCtrl: {fileID: 0}
-  target: {fileID: 0}
 --- !u!114 &1206323859700250533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +106,20 @@ MonoBehaviour:
   gunDitect: {fileID: 0}
   gunTarget: {fileID: 0}
   canShoot: 1
+--- !u!114 &1206323859700250534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206323859700250555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7835c2f617ca34145aec67b9624bfa69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunCtrl: {fileID: 0}
+  target: {fileID: 0}
 --- !u!114 &1206323859700250532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,8 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8003d07efa51c0940959c6168b4bd96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FowardTime: 0.133
-  fire: {fileID: 1206323860251631647}
+  FowardTime: 0.2
 --- !u!58 &1206323859700250530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -149,7 +148,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.5
+  m_Radius: 2.17
 --- !u!114 &6848023347808284773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +208,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5818691678137158007, guid: 8ad56b563907c10488b0350ed4da1ca1,
     type: 3}
   firingPoint: {fileID: 1206323859922225357}
-  fireRate: 0.58
+  damage: 4
+  fireRate: 0.15
   gunCtrl: {fileID: 1206323859700250533}
 --- !u!1 &1206323860251631647
 GameObject:
@@ -238,7 +238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206323860251631647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.29, y: 1.97, z: 0}
+  m_LocalPosition: {x: 4.49, y: 2.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

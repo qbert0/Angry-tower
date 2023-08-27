@@ -7,16 +7,42 @@ using UnityEngine.UIElements;
 public class SliderIntElement : VisualElement
 {
     [UnityEngine.Scripting.Preserve]
-    public new class UxmlFactory : UxmlFactory<SliderIntElement>{};
+    public new class UxmlFactory : UxmlFactory<SliderIntElement, UxmlTraits>{};
+
+
+    public new class UxmlTraits : VisualElement.UxmlTraits
+    {
+        UxmlStringAttributeDescription m_string =
+            new UxmlStringAttributeDescription { name = "title", defaultValue = "default_value" };
+        
+        public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription
+        {
+            get { yield break; }
+        }
+
+        public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
+        {
+            base.Init(ve, bag, cc);
+            var ate = ve as SliderIntElement;
+            ate.title.Clear();
+            ate.stringAttr = m_string.GetValueFromBag(bag, cc);
+            
+            ate.title.text = ate.stringAttr;
+        }
+    }
+
+    public string stringAttr { get; set; }
+
     private const string SliderIntElementContain = "slider-int-element-contain";
     private const string SliderIntElementLeftBar = "slider-int-element-leftbar";
     private const string SliderIntElementRightBar = "slider-int-element-rightbar";
     private const string Slider = "slider-int-element-slider";
     private const string SliderIntBoderDrag = "border-drag";
+    private const string SliderIntTitle = "slider-int-element-title";
 
     VisualElement leftBar;
     VisualElement rightBar;
-    Label text;
+    Label title;
     VisualElement slider;
     VisualElement dragBorder;
     SliderInt sliderInt;
@@ -32,9 +58,14 @@ public class SliderIntElement : VisualElement
         rightBar.AddToClassList(SliderIntElementRightBar);
         hierarchy.Add(rightBar);
 
-        text = new Label ();
-        text.text = "volume";
-        leftBar.Add(text);
+        //title
+
+        title = new Label ();
+        title.AddToClassList(SliderIntTitle);
+        title.text = "volume";
+        leftBar.Add(title);
+
+        //sliderInt
 
         slider = new VisualElement ();
         slider.name = "slider";
@@ -67,9 +98,6 @@ public class SliderIntElement : VisualElement
     }
 
     public void Change(ChangeEvent<int> e, SliderInt sliderInt) {
-        Debug.Log("asd");
-        // Debug.Log(progressBar.value);
-        Debug.Log(sliderInt.value);
         progressBar.value = sliderInt.value;
 
     }

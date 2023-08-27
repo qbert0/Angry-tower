@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GamePage" src="project://database/Assets/Scripts/UI/UIUxml/GamePage.uxml?fileID=9197481963319205126&amp;guid=ce3f7d0da73e7564bace12d59e52a131&amp;type=3#GamePage" />
+    <ui:Template name="PauseMenu" src="project://database/Assets/Scripts/UI/UIUxml/PauseMenu.uxml?fileID=9197481963319205126&amp;guid=d5b67e9650671a54e991b7ed23d6ee8e&amp;type=3#PauseMenu" />
+    <ui:Template name="AudioPage" src="project://database/Assets/Scripts/UI/UIUxml/AudioPage.uxml?fileID=9197481963319205126&amp;guid=5f253686cdb99944aa87dc393f9a320d&amp;type=3#AudioPage" />
+    <ui:Template name="GameOver" src="project://database/Assets/Scripts/UI/UIUxml/GameOver.uxml?fileID=9197481963319205126&amp;guid=3833999d3949c2b4aa81006d95441277&amp;type=3#GameOver" />
+    <ui:Instance template="GamePage" name="GamePage" tabindex="1" style="display: flex; height: 75px; width: 1205px;" />
+    <ui:Instance template="PauseMenu" name="PauseMenu" style="height: 543px; width: 1187px; flex-grow: 1; display: none; overflow: visible; position: absolute; top: 0; left: 0;" />
+    <ui:Instance template="AudioPage" name="AudioPage" tabindex="1" style="height: 547px; width: 1197px; position: absolute; display: none;" />
+    <ui:Instance template="GameOver" name="GameOver" style="position: absolute; height: 552px; width: 1207px; display: none;" />
+</ui:UXML>

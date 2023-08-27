@@ -1,6 +1,6 @@
 .button:hover {
-    height: 20%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     -unity-text-align: middle-center;
     display: flex;
     visibility: visible;
@@ -32,8 +32,8 @@
 }
 
 .button:active {
-    height: 20%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     -unity-text-align: middle-center;
     display: flex;
     visibility: visible;
@@ -63,8 +63,8 @@
 }
 
 .button {
-    height: 20%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     -unity-text-align: middle-center;
     display: flex;
     visibility: visible;
@@ -91,4 +91,107 @@
     border-top-color: rgb(111, 106, 106);
     border-bottom-color: rgb(111, 106, 106);
     -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+}
+
+.button-cricle:hover {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+}
+
+.button-cricle:active {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(190, 187, 187);
+}
+
+.button-cricle {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.button-box {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(197, 168, 168, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.button-box:hover {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(197, 168, 168, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    scale: 1.1 1.1;
+}
+
+.button-box:active {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(197, 168, 168, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-image-tint-color: rgb(217, 205, 205);
+    scale: 0.9 0.9;
 }

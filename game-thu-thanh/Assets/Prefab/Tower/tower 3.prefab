@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8943122294856733066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.01, y: -1.93, z: 0}
+  m_LocalPosition: {x: -4.49, y: -1.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -729420920, guid: 4c432ed84f5455442999377a1608a966, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -216775573
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 460164027, guid: ad6cfbed6f8b35a4881f1a0507bd1cd7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -262,7 +262,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.5
+  m_Radius: 3.91
 --- !u!1001 &228885889668741889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -327,9 +327,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
+      propertyPath: damage
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
       propertyPath: gunCtrl
       value: 
       objectReference: {fileID: 8943122295332619824}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
+      propertyPath: fireRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041152157202014233, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
       propertyPath: m_Name
@@ -407,9 +417,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
+      propertyPath: damage
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
       propertyPath: gunCtrl
       value: 
       objectReference: {fileID: 8943122295332619824}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
+      propertyPath: fireRate
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
       propertyPath: bulletPrefab
@@ -493,9 +513,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
+      propertyPath: damage
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
       propertyPath: gunCtrl
       value: 
       objectReference: {fileID: 8943122295332619824}
+    - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
+        type: 3}
+      propertyPath: fireRate
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3316706836131481146, guid: a484831af20e87b4396baa5d70318faf,
         type: 3}
       propertyPath: bulletPrefab

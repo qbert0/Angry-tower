@@ -29,7 +29,7 @@ public class GridManager : MonoBehaviour
                 if(gridTile.Pos(x,y)) {
                     tilemap.SetTile(new Vector3Int(x,y,0), tileSet.tiles[0]);
                 } else {
-                    tilemap.SetTile(new Vector3Int(x,y,0), tileSet.tiles[1]);
+                    // tilemap.SetTile(new Vector3Int(x,y,0), tileSet.tiles[1]);
                 }
             }
         }

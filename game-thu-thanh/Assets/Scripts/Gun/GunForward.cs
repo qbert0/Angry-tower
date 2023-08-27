@@ -26,8 +26,10 @@ public class GunForward : MonoBehaviour
     {
         if (gunCtrl.gunDitect.GetTarget() != null) {
             Fowward();
-            
+        } else {
+            SetArealdy(false);
         }
+        
     }
 
 
@@ -44,7 +46,7 @@ public class GunForward : MonoBehaviour
         
         if(goc3 < 1f) {
             SetArealdy(true);
-        } else SetArealdy(false);
+        } 
     }
 
     private void SetArealdy(bool to) {

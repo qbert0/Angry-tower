@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float spawnRate = 0.1f;
     [Range(1f,5f)]
     [SerializeField] private float timeBetweenWave = 5f;
-    [SerializeField] EnemyMovement enemyPrefabs;
+    [SerializeField] EnemyCtrl enemyPrefabs;
     [Range(1,20)]
     [SerializeField] private int enemyCount;
     [SerializeField] private bool canSpawn;
@@ -37,17 +37,26 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator WaveSpawner() {
         waveIsDone = false;
         for (int i=0; i<enemyCount; i++ ) {
-            EnemyMovement enemyClone = Instantiate(enemyPrefabs, transform.position, Quaternion.identity);
+            EnemyCtrl enemyClone = Instantiate(enemyPrefabs, transform.position, Quaternion.identity);
             
             enemyClone.name = "clam";
+            enemyClone.SetId(i);
             // Debug.Log(enenmyRoad.GetRoad().Count);
-            enemyClone.TakeRoad(spawnCtrl.enenmyRoad.GetRoad());
+            enemyClone.enemyMovement.TakeRoad(spawnCtrl.enenmyRoad.GetRoad());
             enemyClone.transform.SetParent(parent);
             yield return new WaitForSeconds(spawnRate);
         }
 
         yield return new WaitForSeconds(timeBetweenWave);
         waveIsDone = true;
+    }
+
+    public void SetSpawn(bool spawn) {
+        this.canSpawn = spawn;
+    }
+
+    public void ToggleSpawn() {
+        this.canSpawn = !this.canSpawn;
     }
 
 }

@@ -11,6 +11,9 @@ public class Bullet  : MonoBehaviour
     [SerializeField] private float lifeTime = 3f;
     [Range(1f,20f)]
     [SerializeField] private float damage =2f;
+
+
+    
     private Transform target;
     private Transform targetVir;
     private Rigidbody2D myRb;
@@ -32,6 +35,14 @@ public class Bullet  : MonoBehaviour
 
     public void SetTarget(Transform targetEnenmy) {
         target = targetEnenmy;
+    }
+
+    public void SetDamage(float damage) {
+        this.damage = damage;
+    }
+
+    public float GetDamage() {
+        return damage;
     }
     private void RotateTowardsTarget() {
         targetVir = target;

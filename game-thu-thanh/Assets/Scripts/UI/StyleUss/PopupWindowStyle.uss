@@ -1,20 +1,36 @@
-.popup_contain {
-    flex-grow: 0;
-    background-color: rgba(94, 69, 72, 0.68);
+.popup-contain {
+    background-color: rgba(168, 156, 158, 0.39);
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.popup_window {
+.popup-window {
     width: 50%;
     height: 50%;
     background-color: rgba(185, 179, 177, 0.75);
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
 }
 
-.slider {
-    width: 50%;
-    height: 50%;
-    background-color: rgb(166, 142, 142);
+.popup-content {
+    height: 20%;
+    width: 100%;
+    background-color: rgba(164, 127, 127, 0.39);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.popup-title {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    -unity-text-align: middle-left;
+    font-size: 40px;
+    color: rgba(142, 101, 101, 255);
+    text-shadow: 0 0 0 rgba(207, 26, 26, 255);
 }

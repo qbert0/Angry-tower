@@ -41,8 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: water
+    uniqueID: 687069099
+    locked: 0
   - name: ground
     uniqueID: 2425651459
+    locked: 0
+  - name: isLand
+    uniqueID: 3409058131
     locked: 0
   - name: hightLight
     uniqueID: 2561514637

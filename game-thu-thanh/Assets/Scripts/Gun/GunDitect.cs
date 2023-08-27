@@ -42,7 +42,7 @@ public class GunDitect : MonoBehaviour
     private void OnTriggerExit2D(Collider2D target) {
         if (target.TryGetComponent(out EnemyCtrl enemy)) {
             for(int i =0; i<listTarget.Count; i++) {
-                if(listTarget[i].getId() == enemy.getId()) {
+                if(listTarget[i].GetId() == enemy.GetId()) {
                     listTarget.RemoveAt(i);
                     ChooseTarget();
                     // return;

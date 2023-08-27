@@ -11,12 +11,16 @@ public class AudioPage
     private Button _backButton;
 
     public AudioPage(VisualElement root) {
-        _backButton = root.Q<Button>("back_to_option_button");
+        _backButton = root.Q<Button>("back_button");
 
         addActionToButton();
     }
 
     public void addActionToButton() {
-        _backButton.clicked += () => Debug.Log("back");
+        // _backButton.clicked += () => BackAction();
+    }
+
+    private void BackAction() {
+        // Time.timeScale = 1.0f;
     }
 }

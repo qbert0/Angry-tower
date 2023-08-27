@@ -6,6 +6,8 @@ public class GunShoot : MonoBehaviour
 {
     [SerializeField] private Bullet bulletPrefab;
     [SerializeField] private Transform firingPoint;
+    [Range(1f,20f)]
+    [SerializeField] private float damage =2f;
 
     [Range(0.00001f,5f)]
     [SerializeField] private float fireRate;
@@ -29,6 +31,7 @@ public class GunShoot : MonoBehaviour
             return;
         }
         if(gunCtrl.gunForward.GetArealdy() == false) {
+            fireTimer = 0f;
             return;
         }
         Shoot();
@@ -39,6 +42,7 @@ public class GunShoot : MonoBehaviour
         if (fireTimer <= 0f) {
             Bullet bullet = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
             bullet.SetTarget(gunCtrl.gunDitect.GetTarget().transform);
+            bullet.SetDamage(damage);
             fireTimer = fireRate;
         } else {
             fireTimer -= Time.deltaTime;

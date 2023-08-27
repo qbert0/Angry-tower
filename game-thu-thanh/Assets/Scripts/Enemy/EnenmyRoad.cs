@@ -57,17 +57,7 @@ public class EnenmyRoad : MonoBehaviour
        
     }
 
-    public bool Alike(List<PathNode> listOne, List<PathNode> listTwo) {
-        if(listOne.Count != listTwo.Count) {
-            return false;
-        }
-        for (int i =0; i< listOne.Count; i++) {
-            if(listOne[i] == listTwo[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
+    
     public Vector2 SetCellToPos(PathNode pathNode) {
         Vector2 worldPos = gridManager.GetCellToWorld(pathNode.xPos, pathNode.yPos);
         return worldPos;

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/StyleUss/Button.uss?fileID=7433441132597879392&amp;guid=6cc600a7434ad3741a530580904c9fac&amp;type=3#Button" />
+    <ui:VisualElement tabindex="1" style="width: 100%; height: 100%;">
+        <ui:VisualElement tabindex="2" style="flex-direction: row; justify-content: flex-end; padding-right: 70px; width: 100%; height: 100px; align-items: center;">
+            <ui:Button display-tooltip-when-elided="true" name="skip_button" class="button-box" style="background-image: url(&apos;project://database/Assets/Sprites/UISprite/ui-removebg-preview.png?fileID=1435765806&amp;guid=3dcfdc218c54f8d40871c7e7b52cdc92&amp;type=3#ui-removebg-preview_63&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" tabindex="3" name="setting_button" class="button-box" style="background-image: url(&apos;project://database/Assets/Sprites/UISprite/ui-removebg-preview.png?fileID=-660613253&amp;guid=3dcfdc218c54f8d40871c7e7b52cdc92&amp;type=3#ui-removebg-preview_43&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" tabindex="3" name="pause_button" class="button-box" style="background-image: url(&apos;project://database/Assets/Sprites/UISprite/ui-removebg-preview.png?fileID=-114025805&amp;guid=3dcfdc218c54f8d40871c7e7b52cdc92&amp;type=3#ui-removebg-preview_32&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
